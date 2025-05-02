@@ -25,7 +25,7 @@ except:
 
 st.subheader("Traductor de canciones")
 
-st.markdown('<p class="custom-text">Todos amamos escuchar música ¿cierto? y por eso sé que a veces tenemos canciones que nos preguntamos como suenan en inglés o en español (dependiendo de su idioma original), ¡por eso te invito que escribas la letra de tu canción favorita y la traduzcas para que dejes de tener esa duda!
+st.markdown('<p class="custom-text">Todos amamos escuchar música ¿cierto? y por eso sé que a veces tenemos canciones que nos preguntamos como suenan en inglés o en español, dependiendo de su idioma original, ¡por eso te invito que escribas la letra de tu canción favorita y la traduzcas para que dejes de tener esa duda!
 st.markdown('<p class="custom-text">Escribe la letra de alguna canción</p>', unsafe_allow_html=True)
 
 text = st.text_area("Ingrese el texto a escuchar.")
