@@ -8,7 +8,7 @@ import base64
 
 st.set_page_config(page_title="Texto a Audio", layout="centered")
 
-st.markdown('<style>body {background-color: #800020;} .stApp {background-color: #800020; text-align: center;} h1, .stApp h1 {color: #EFBF04 !important; text-align: center;} h2, h3, .stApp h2 {color: #EFBF04 !important; text-align: center;} .stButton>button {background-color: #EFBF04; color: white; border: none; border-radius: 8px; padding: 0.5em 1em; font-weight: bold; display: block; margin: auto;} .stTextArea textarea, .stSelectbox div[data-baseweb="select"] {color: #ffb3ec !important;} .stTextArea label, .stSelectbox label {color: #EFBF04 !important; text-align: center; display: block; width: 100%;} .custom-text {color:  #FFA800; text-align: center; font-size: 16px;}</style>', unsafe_allow_html=True)
+st.markdown('<style>body {background-color: #800020;} .stApp {background-color: #800020; text-align: center;} h1, .stApp h1 {color: #EFBF04 !important; text-align: center;} h2, h3, .stApp h2 {color: #EFBF04 !important; text-align: center;} .stButton>button {background-color: #EFBF04; color: white; border: none; border-radius: 8px; padding: 0.5em 1em; font-weight: bold; display: block; margin: auto;} .stTextArea textarea, .stSelectbox div[data-baseweb="select"] {color: #800020 !important;} .stTextArea label, .stSelectbox label {color: #EFBF04 !important; text-align: center; display: block; width: 100%;} .custom-text {color:  #FFA800; text-align: center; font-size: 16px;}</style>', unsafe_allow_html=True)
 
 st.title("Conversión de Texto a Audio")
 
