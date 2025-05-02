@@ -12,7 +12,7 @@ st.markdown('<style>body {background-color: #800020;} .stApp {background-color: 
 
 st.title("Conversión de Texto a Audio")
 
-image = Image.open("cuervito.png")
+image = Image.open("imagen_2025-05-01_210402173.png")
 st.image(image, use_container_width=True)
 
 with st.sidebar:
@@ -23,11 +23,10 @@ try:
 except:
     pass
 
-st.subheader("Sobre cuervos...")
+st.subheader("Traductor de canciones")
 
-st.markdown('<p class="custom-text">El cuervo voló durante días buscando el árbol más alto del mundo. Quería ver el fin del cielo. Al encontrarlo, se posó en la rama más alta y miró hacia arriba, pero todo seguía igual: azul, infinito, sin final. Entonces pensó que tal vez el cielo era él mismo, y en su orgullo, soltó un graznido tan fuerte que se cayó del susto.</p>', unsafe_allow_html=True)
-
-st.markdown('<p class="custom-text">¿Quieres escucharlo? Copia el texto</p>', unsafe_allow_html=True)
+st.markdown('<p class="custom-text">Todos amamos escuchar música ¿cierto? y por eso sé que a veces tenemos canciones que nos preguntamos como suenan en inglés o en español (dependiendo de su idioma original), ¡por eso te invito que escribas la letra de tu canción favorita y la traduzcas para que dejes de tener esa duda!
+st.markdown('<p class="custom-text">Escribe la letra de alguna canción</p>', unsafe_allow_html=True)
 
 text = st.text_area("Ingrese el texto a escuchar.")
 
