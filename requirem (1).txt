@@ -1,0 +1,3 @@
+streamlit
+gTTS==2.2.2
+googletrans==3.1.0a0
